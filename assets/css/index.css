@@ -1910,40 +1910,11 @@ footer {
   font-weight: 500;
   color: #eee;
 } 
-.instagram_img .slick-prev {
-  position: absolute;
-  left: 0;
-  z-index: 1000;
-  height: 40px;
-  width: 30px;
-}
-.instagram_img .slick-prev:before {
-  content: '\e5e0';
-  top: 0;
-  left: 0;
-}
+.instagram_img .slick-prev,
 .instagram_img .slick-next {
-  position: absolute;
-  right: 2px;
-  z-index: 1000;
-  height: 40px;
-  width: 30px;
+  display: none;
 }
-.instagram_img .slick-next:before {
-  content: '\e5e1';
-  top: 0;
-  right: 0;
-}
-.instagram_img .slick-prev:before, 
-.instagram_img .slick-next:before {
-  font-family: 'Material Icons Outlined';
-  position: absolute;
-  width: inherit;
-  height: inherit;
-  line-height: 40px;
-  color: #fff;
-  background-color: rgba(51, 51, 51,0.7);
-}
+
 .instagram_img .slick-dots {
   display: none !important;
 }
