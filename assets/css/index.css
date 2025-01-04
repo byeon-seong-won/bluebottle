@@ -219,12 +219,12 @@ nav {
 
 .menu_con_total .slick-dots {
   position: absolute;
-  width: 45%;
-  transform: translate(430px,40px);
+  bottom: -60px;
   text-align: center;
   position: relative;
-  height: 12px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #slick-slide-control00:before {
